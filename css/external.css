@@ -1,0 +1,42 @@
+.cls{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: blue;
+    font-size: 50px;
+}
+#span_id{
+    color: brown;
+    font-size: 50px;
+    background-color: azure;
+}
+p{
+    color: red;
+    background-color: bisque;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* a[href]{
+    font-size: 50px;
+    text-decoration: none;
+} */
+img[src]{
+    border: 3px solid red;
+}
+input[type="text"]{
+    color: red;
+    background-color: aqua;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    font-size: 30px;
+}
+a:active{
+    color: brown;
+}
