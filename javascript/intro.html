@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to JS</title>   
+</head>
+<body>
+    <!-- //this is for inline -->
+    <button onclick="alert('this is inline js')">Click</button>
+    <!-- //for internal  -->
+    <button onclick="myfunc_internal()">Click</button>
+    <!-- //for external -->
+    <button onclick="myfunc_external()">Click</button>
+</body>
+</html>
+<!-- //internal -->
+<script>
+    function myfunc_internal(){
+    alert('this is internal js')
+}
+</script>
+<!-- //external -->
+<script src="external.js"></script>
